@@ -15,7 +15,11 @@ One of the concepts encapsulated here is the "no threshold" approach, which simp
 
 ### Vendors and AI Tools
 A note on vendors: With the rise of AI tooling in businesses, organizations, and third-parties, we hope to incorporate this disclosure as one that is at the lowest level, or as far-right in the chain as possible. That is, the same metrics that are used here on a per-project basis are applied to anything vendor-related higher in the chain. If this project had a section of content created by an AI tool that a vendor provides, then we believe that that disclosure should "propagate down" to this project. Therefore, keeping the "no threshold" rule in mind, any usage of an AI tool to bootstrap or otherwise create initial content for this project, passes that no threshold mark and counts as a usage of AI.
+
 - Example: I use a tool that builds a skeleton of my project based on what an AI recommends. That skeleton is the baseline for a new programming project I'm working on. Because the skeleton was AI-generated, the final project's README should include an AI disclosure statement, at the very least SAID-level, because an AI-tool was used to generate at least part of the content.
+
+![image](https://github.com/user-attachments/assets/d9bf67a9-90dc-4c12-88c4-eb8c5f48cefc)
+
 
 ## Nomenclature
 
