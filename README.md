@@ -9,7 +9,7 @@ A note on vendors: With the rise of AI tooling in businesses, organizations, and
 
 ## Nomenclature
 
--**AI System or Tooling**: Includes direct engagement of an AI Tool, Assistant, LLM, or third-party source that provides the former. Includes iteration, "spot checking", "tweaking" or formatting-only type tools. 
+- **AI System or Tooling**: Includes direct engagement of an AI Tool, Assistant, LLM, or third-party source that provides the former. Includes iteration, "spot checking", "tweaking" or formatting-only type tools. 
 
 - **Content**: The actual content of a repository, interpreted widely. This could be images, source code, documentation, tests, or other core content that provides both primary and auxillary functionality to the program or media in question. This takes a "no threshold" approach, where any engagement with AI in content creation counts as a usage of AI in general. Levels of content generation are then clarified in the type of disclosure used. **Note that this relates to content creation only, not any external process such as brainstorming or ideation.**
 
