@@ -5,7 +5,7 @@ Standardization for AI Disclosures as it relates to Code and Media Content
 
 ## Nomenclature
 
-- **Content**: The actual content of this repository, interpreted widely. This could be images, source code, documentation, tests, or other core content that provides both primary and auxillary functionality to the program or media in question.
+- **Content**: The actual content of a repository, interpreted widely. This could be images, source code, documentation, tests, or other core content that provides both primary and auxillary functionality to the program or media in question. This takes a "no threshold" approach, where any engagement with AI in content creation counts as a usage of AI in general. Levels of content generation are then clarified in the type of disclosure used. Note that this relates to content creation only, not any auxiliary process such as brainstorming or ideation.
 
 ## Example Disclosures
 
@@ -22,3 +22,5 @@ Standardization for AI Disclosures as it relates to Code and Media Content
 **DAID** - This content was **primarily** written by a human, wtih AI-generated documentation, including the documentation tools being configured in question by AI. All documentation and documentation systems presented in this repository should be consdiered AI-generated.
 
 ## Thoughts - Systemtic and Automated Inclusion
+
+## FAQ
