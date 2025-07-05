@@ -44,6 +44,6 @@ A note on vendors: With the rise of AI tooling in businesses, organizations, and
 
 **DAID** - This content was **primarily** written by a human, wtih AI-generated documentation, including the documentation tools being configured in question by AI. All documentation and documentation systems presented in this repository should be consdiered AI-generated.
 
-## Thoughts - Systemtic and Automated Inclusion
+## Thoughts - Systemic and Automated Inclusion
 
 ## FAQ
