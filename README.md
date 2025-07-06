@@ -1,3 +1,7 @@
+![Static Badge](https://img.shields.io/badge/contribution%20neeeded-orange)
+
+![Static Badge](https://img.shields.io/badge/AID-SAID-blue) ![Static Badge](https://img.shields.io/badge/AID-DAID-blue)
+
 ## TODO
 - [ ] Further clarification of AI usage levels
 - [ ] Deep dive into specific examples of AI usage levels
