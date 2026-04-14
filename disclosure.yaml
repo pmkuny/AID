@@ -1,6 +1,6 @@
-# Example AID.yaml Manifest
+# Example disclosure.yaml Manifest
 
-# This is a sample manifest for the AID standard.
+# This is a sample manifest for the disclosure standard.
 # It helps automated tools understand your project's AI disclosure status.
 
 schema_version: "1.0"
