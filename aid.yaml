@@ -15,13 +15,12 @@ special_usage:
   - "DAID"
 
 # Information about your direct dependencies
-# This is a "Best Effort" (BE) disclosure.
+# This is based on available disclosure information from primary dependencies.
 inherited_disclosure:
   - name: "requests"
     level: "ZAID"
   - name: "some-ai-library"
     level: "SAID"
-    status: "Best Effort"
 
 # Optional: List of AI tools used in your workflow
 # This helps with provenance.

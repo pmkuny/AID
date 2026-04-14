@@ -133,10 +133,8 @@ You are not expected to audit all dependencies. Disclosure is only required if a
 ### 2. The `AID.yaml` Manifest
 To support automation, we propose a standard [AID.yaml](./AID.yaml) file in the repository root. This machine-readable format allows future tooling to aggregate disclosure data across dependency chains, automating the calculation of a project's total disclosure level.
 
-### 3. The "Best Effort" (BE) Modifier
-Auditing the entire history of external dependencies is often impractical. If you have reviewed top-level documentation and manifests, you may use the **Best Effort** flag:
-- `AID-ZAID(D) / SAID(I-BE)`
-- This indicates that your disclosure is based on the available information for your primary dependencies.
+### 3. The Modifier
+We do not expect an audit of the entire dependency history. If you have reviewed top-level documentation and manifests, your disclosure should reflect the information available for your primary dependencies.
 
 ### 4. Top-Level Only Rule
 For most projects, disclosure responsibilities are limited to **Direct Dependencies**. If your project depends on `Library A`, and `Library A` depends on `Library B`, your disclosure should reflect `Library A`'s status. It is the responsibility of each maintainer to disclose the usage within their own project, preventing recursive disclosure overhead.
