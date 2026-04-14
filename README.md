@@ -122,22 +122,22 @@ An open-source contributor disables all AI-based completion tools (like Copilot 
 
 ## Lowering the Burden
 
-Let's be real: tracking AI usage across a massive dependency tree sounds like a nightmare. If we make this standard too hard to use, nobody is going to use it. Here’s how we’re planning to keep the burden low for developers:
+Tracking AI usage across complex dependency trees can be challenging. To make this standard practical, we suggest the following approaches to minimize the maintenance burden for developers:
 
 ### 1. Presumption of Human Creation
-We've decided on a simple rule: **if a library doesn't disclose anything, we assume it's ZAID (Zero AI).** 
-You shouldn't have to be a private investigator for every package in your `node_modules`. You only need to report AI usage if a library specifically discloses it or is clearly marketed as an "AI-first" tool.
+We follow a simple rule: **if a library does not disclose AI usage, it is treated as ZAID (Zero AI).** 
+You are not expected to audit all dependencies. Disclosure is only required if a library explicitly discloses AI usage or is marketed as an AI-focused tool.
 
 ### 2. The `AID.yaml` Manifest
-To make this machine-readable, we’re proposing a standard [AID.yaml](./AID.yaml) file that lives in your repo's root. The goal is to eventually have tools that can crawl your dependencies, look for these files, and automatically calculate your project's total disclosure level.
+To support automation, we propose a standard [AID.yaml](./AID.yaml) file in the repository root. This machine-readable format allows future tooling to aggregate disclosure data across dependency chains, automating the calculation of a project's total disclosure level.
 
 ### 3. The "Best Effort" (BE) Modifier
-We don't expect you to audit the entire history of every library you use. If you've checked the top-level READMEs and manifests but aren't 100% sure about the deep dependencies, you can use the **Best Effort** flag:
+Auditing the entire history of external dependencies is often impractical. If you have reviewed top-level documentation and manifests, you may use the **Best Effort** flag:
 - `AID-ZAID(D) / SAID(I-BE)`
-- This basically says: "I did my homework on my main dependencies, and this is the best info I have."
+- This indicates that your disclosure is based on the available information for your primary dependencies.
 
 ### 4. Top-Level Only Rule
-For most projects, you're only responsible for disclosing your **Direct Dependencies**. If you use `Library A`, and `Library A` uses `Library B`, you only need to report what `Library A` says about itself. It's `Library A`'s job to worry about `Library B`. This keeps the "disclosure bloat" under control.
+For most projects, disclosure responsibilities are limited to **Direct Dependencies**. If your project depends on `Library A`, and `Library A` depends on `Library B`, your disclosure should reflect `Library A`'s status. It is the responsibility of each maintainer to disclose the usage within their own project, preventing recursive disclosure overhead.
 
 ## Systemic and Automated Inclusion
 
@@ -157,20 +157,20 @@ A pre-commit hook could remind developers to update their AI disclosure if signi
 
 ## FAQ
 
-### Aren't people going to ignore this and include AI anyway?
-Maybe. Probably. The ubiquity of AI usage doens't mean we can't standardize how those who want to diclose _should_ disclose. The intention here is not to engage in the theoretical discussion of "everything being AI" but to create the framework for how those who believe disclosure is important can unify that disclosure.
+### Aren't people going to ignore this?
+Disclosure standards rely on community adoption and transparency. While some maintainers may choose not to adopt the standard, providing a clear framework allows those committed to transparency to unify their disclosure practices.
 
 ### Why "No Threshold"?
-Even the smallest AI usage (like formatting or bug-fixing) passes the threshold because it represents a shift in the creative process. By setting the bar at zero, we create a clear, binary starting point: either AI was used, or it wasn't. The levels (SAID, MAID, etc.) then provide the necessary nuance.
+Even minor AI usage (such as automated formatting or bug-fixing) marks a shift in the creative process. Setting the disclosure threshold at zero establishes a clear, binary starting point for transparency, while usage levels (SAID, MAID, etc.) provide the necessary nuance.
 
 ### Does using Google Search or StackOverflow count as AI?
-No. Traditional search engines and community forums are human-authored content discovery tools. AI systems involve the *generation* or *transformation* of content by a model.
+No. Traditional search engines and community forums are tools for discovering human-authored content. AID is specific to systems that involve the generation or transformation of content by a model.
 
 ### How do I handle vendor propagation?
-If your project uses a library or service that discloses AI usage (e.g., a "Powered by AI" API), your project's disclosure should reflect this at the appropriate level. If the core value of your project is a wrapper around an AI service, it should likely be **FAID** or **MAID-C**.
+If your project depends on a library or service that discloses AI usage, your project's disclosure should reflect this at the appropriate level. If the core functionality of your project is a wrapper around an AI service, the project should be categorized as **FAID** or **MAID-C**.
 
 ### Is a ZAID badge a "superior" status?
-No. AID is a disclosure standard, not a quality or morality standard. ZAID simply informs the user that the content is 100% human-originated, which may be important for certain legal, ethical, or educational contexts.
+No. AID is a disclosure standard, not a metric of quality or ethics. ZAID serves only to inform the user that the content is human-originated, which may be relevant for specific educational, legal, or professional contexts.
 
 ## Compliance and Verification
 
