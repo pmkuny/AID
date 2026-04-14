@@ -8,6 +8,8 @@
 - [x] Overview
 - [x] Additional levels of Special Usage
 - [x] Continued breakdown of Nomenclature
+- [ ] Standardize Badges / Badge Repository
+- [ ] Rewrite Badging Section
 
 # AID
 Standardization for AI Disclosures as it relates to Code and Media Content
@@ -143,7 +145,9 @@ For most projects, disclosure responsibilities are limited to **Direct Dependenc
 
 To ensure the AID standard is practical and widely adopted, we propose the following automation strategies:
 
-### 1. Badge Integration
+(TODO) 
+
+### 1. Badge Integration 
 Use standard [shields.io](https://shields.io) badges in the `README.md` to provide an immediate visual indicator of the project's AI disclosure level.
 ```markdown
 [![AID-MAID-A](https://img.shields.io/badge/AID-MAID--A-blue)](https://github.com/path/to/AID)
