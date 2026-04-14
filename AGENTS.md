@@ -22,7 +22,7 @@ Agents should treat this repository as:
 - A **source of truth for best practices**
 
 Agents SHOULD:
-- Read and understand `aid.yaml`
+- Read and understand `disclosure.yaml`
 - Use it as a model for generating disclosures in other repositories
 - Follow patterns and conventions defined here
 
@@ -35,7 +35,7 @@ Agents SHOULD NOT:
 
 ## Key Files
 
-### `aid.yaml` (Primary Source of Truth)
+### `disclosure.yaml` (Primary Source of Truth)
 
 This file defines the canonical structure for AI disclosure.
 
@@ -59,7 +59,7 @@ Agents should:
 - Reference examples when generating outputs
 
 If there is ambiguity:
-- Prefer `aid.yaml` for structure
+- Prefer `disclosure.yaml` for structure
 - Use README for interpretation
 
 ---
@@ -68,7 +68,7 @@ If there is ambiguity:
 
 When using this repository as guidance:
 
-1. **Start with `aid.yaml`**
+1. **Start with `disclosure.yaml`**
    - Extract schema and field meanings
    - Identify required vs optional fields
 
@@ -77,7 +77,7 @@ When using this repository as guidance:
    - Preserve semantic intent
 
 3. **Generate New Disclosure**
-   - Create a new `aid.yaml`-like file in the target repository
+   - Create a new `disclosure.yaml`-like file in the target repository
    - Do not copy blindly—adapt thoughtfully
 
 4. **Optionally Generate Documentation**
@@ -109,12 +109,12 @@ When applying this standard to another project:
 
 ## Interpretation Rules
 
-- `aid.yaml` defines **structure**
+- `disclosure.yaml` defines **structure**
 - `README.md` defines **intent**
 - Examples define **usage patterns**
 
 If conflicts arise:
-1. Trust `aid.yaml` structure
+1. Trust `disclosure.yaml` structure
 2. Use README to interpret meaning
 3. Follow examples for implementation style
 

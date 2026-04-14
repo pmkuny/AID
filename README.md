@@ -132,8 +132,8 @@ Tracking AI usage across complex dependency trees can be challenging. To make th
 We follow a simple rule: **if a library does not disclose AI usage, it is treated as ZAID (Zero AI).** 
 You are not expected to audit all dependencies. Disclosure is only required if a library explicitly discloses AI usage or is marketed as an AI-focused tool.
 
-### 2. The `AID.yaml` Manifest
-To support automation, we propose a standard [AID.yaml](./AID.yaml) file in the repository root. This machine-readable format allows future tooling to aggregate disclosure data across dependency chains, automating the calculation of a project's total disclosure level.
+### 2. The `disclosure.yaml` Manifest
+To support automation, we propose a standard [disclosure.yaml](./disclosure.yaml) file in the repository root. This machine-readable format allows future tooling to aggregate disclosure data across dependency chains, automating the calculation of a project's total disclosure level.
 
 ### 3. The Modifier
 We do not expect an audit of the entire dependency history. If you have reviewed top-level documentation and manifests, your disclosure should reflect the information available for your primary dependencies.
