@@ -60,8 +60,6 @@ A note on vendors: With the rise of AI tooling in businesses, organizations, and
 
 - **Derivative Work**: Content modified by AI from a human-created source, or vice-versa. This includes AI-based refactoring or human "polishing" of AI drafts.
 
-## Example Disclosures
-
 ## Philosophy & Social Contract
 
 I want to be clear: the AID standard isn't about judging whether a project is "good" or "bad." It's just a **transparency standard**, much like an open-source license. When you use an AID badge, you're making a social contract with your users about where your content came from.
@@ -79,18 +77,19 @@ Modern software is like an onion—it has layers. Sometimes you might not use AI
 **How to write it**: 
 - `AID-ZAID(D) / SAID(I)`: This means your code is 100% human-written, but you're using an AI-assisted library. 
 - `AID-MAID(D)`: If you don't specify an `(I)`, we'll just assume you're talking about the direct content of the repo.
-  ## Example Disclosures
 
-  ### General Usage - Level of AI Involvement
+## Example Disclosures
 
-  - **FAID (Full AI Disclosure)** - This content was written entirely by AI tooling or systems, and contains only human-in-the-loop interactions, or verification for functionality and security. All content should be considered AI-generated.
+### General Usage - Level of AI Involvement
 
-  - **MAID (Moderate AI Disclosure)** - This content was written by a human, with moderate usage of AI tooling or systems to generate the content contained within. 
-    - **MAID-A (Augmented)** - Human-led; AI provides boilerplate, refactoring, or minor logic blocks. The core architecture and complex logic remain human-originated.
-    - **MAID-C (Collaborative)** - Significant shared effort; AI generates core logic or major components, which are then integrated, reviewed, and refined by a human. Authorship is effectively split.
+- **FAID (Full AI Disclosure)** - This content was written entirely by AI tooling or systems, and contains only human-in-the-loop interactions, or verification for functionality and security. All content should be considered AI-generated.
+
+- **MAID (Moderate AI Disclosure)** - This content was written by a human, with moderate usage of AI tooling or systems to generate the content contained within. 
+  - **MAID-A (Augmented)** - Human-led; AI provides boilerplate, refactoring, or minor logic blocks. The core architecture and complex logic remain human-originated.
+  - **MAID-C (Collaborative)** - Significant shared effort; AI generates core logic or major components, which are then integrated, reviewed, and refined by a human. Authorship is effectively split.
 
 - **SAID (Small AI Disclosure)** - This content was written by a human, with small adjustments by AI tooling or systems to ensure accuracy, best practices, or bug-fixing (e.g., using AI for linting, formatting, or "spot checking" logic).
-  
+
 - **ZAID (Zero AI Disclosure)** - This content was created by a human, with zero AI involvement. No AI tools were used in the IDE, CLI, or any part of the creative pipeline.
 
 ### Special Usage - Content-Specific AI Involvement
