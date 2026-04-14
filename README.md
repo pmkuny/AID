@@ -10,6 +10,8 @@
 - [x] Continued breakdown of Nomenclature
 - [ ] Standardize Badges / Badge Repository
 - [ ] Rewrite Badging Section
+- [ ] New section / gudiance / steering on disclosure on safety and security for AI providers, creators, etc.
+- [ ] New section / guidance / steering on disclosure for creative works (ethical sourcing, credit and attestation)
 
 # AI Disclosure Standarization
 Standardization for AI Disclosures as it relates to Code and Media Content
