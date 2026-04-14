@@ -12,6 +12,7 @@
 - [ ] Rewrite Badging Section
 - [ ] New section / gudiance / steering on disclosure on safety and security for AI providers, creators, etc.
 - [ ] New section / guidance / steering on disclosure for creative works (ethical sourcing, credit and attestation)
+- [ ] Lowest Burden Attestation for those who cannot assess AI at the AID level.
 
 # AI Disclosure Standarization
 Standardization for AI Disclosures as it relates to Code and Media Content
@@ -145,7 +146,7 @@ For most projects, disclosure responsibilities are limited to **Direct Dependenc
 
 ## Systemic and Automated Inclusion
 
-To ensure the AID standard is practical and widely adopted, we propose the following automation strategies:
+To ensure the AI Disclosure standard is practical and widely adopted, we propose the following automation strategies:
 
 (TODO) 
 
@@ -180,7 +181,7 @@ No. AID is a disclosure standard, not a metric of quality or ethics. ZAID serves
 
 ## Compliance and Verification
 
-To ensure the integrity of the AID standard, we recommend a three-tier compliance model:
+To ensure the integrity of the AI Disclosure standard, we recommend a three-tier compliance model:
 
 1. **Self-Disclosure (Standard)**: The project maintainer provides the AID level based on their own assessment. This is the baseline for all projects.
 2. **Third-Party Review (Optional)**: A trusted third-party (e.g., an open-source security firm or a specialized audit tool) verifies the disclosure level through code analysis and provenance tracking.
