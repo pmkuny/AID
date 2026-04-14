@@ -11,7 +11,7 @@
 - [ ] Standardize Badges / Badge Repository
 - [ ] Rewrite Badging Section
 
-# AID
+# AI Disclosure Standarization
 Standardization for AI Disclosures as it relates to Code and Media Content
 
 ## Overview and Intention
