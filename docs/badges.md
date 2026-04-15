@@ -12,7 +12,7 @@ These badges represent the overall level of AI involvement in the project.
 | :--- | :--- | :--- |
 | **FAID** (Full) | ![FAID](https://img.shields.io/badge/AID-FAID-blue) | `![AID-FAID](https://img.shields.io/badge/AID-FAID-blue)` |
 | **MAID-C** (Collaborative) | ![MAID-C](https://img.shields.io/badge/AID-MAIDC-blue?label=AID&color=blue) | `![AID-MAIDC](https://img.shields.io/badge/AID-MAIDC-blue?label=AID&color=blue)` |
-| **MAID-A** (Augmented) | ![MAID-A](https://img.shields.io/badge/AID-MAIDA?label=AID&color=blue) | `![AID-MAID--A](https://img.shields.io/badge/MAID-A?label=AID&color=blue)` |
+| **MAID-A** (Augmented) | ![AID-MAIDA](https://img.shields.io/badge/AID-MAIDA-blue) | `![AID-MAIDA](https://img.shields.io/badge/AID-MAIDA-blue)` |
 | **SAID** (Small) | ![SAID](https://img.shields.io/badge/AID-SAID-blue?label=AID&color=blue) | `![AID-SAID](https://img.shields.io/badge/AID-SAID-blue?label=AID&color=blue)` |
 | **ZAID** (Zero) | ![ZAID](https://img.shields.io/badge/AID-ZAID-blue?label=AID&color=blue) | `![AID-ZAID](https://img.shields.io/badge/AID-ZAID-blue?label=AID&color=blue)` |
 
