@@ -1,5 +1,7 @@
 ![Static Badge](https://img.shields.io/badge/contribution%20neeeded-orange)
 
+![AID-MAID--A](https://img.shields.io/badge/AID-MAIDA-blue)
+![AID-DOC](https://img.shields.io/badge/AID-DOC-8A2BE2?label=AID)
 
 ## TODO
 - [x] Further clarification of AI usage levels
