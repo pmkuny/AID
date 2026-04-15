@@ -1,0 +1,6 @@
+- [Home](/)
+- [For Developers](developers.md)
+- [For Creatives](creatives.md)
+- [Badges](badges.md)
+- [Examples](examples.md)
+- [GitHub](https://github.com/pmkuny/ai-disclosure)
